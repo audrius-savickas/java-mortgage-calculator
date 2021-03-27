@@ -12,9 +12,8 @@ Program is currently in Lithuanian, however, work is being done to translate it 
 
 # Usage
 * Download JavaFX SDK version 11 or newer from https://gluonhq.com/products/javafx/
-* Download "mortgage_calculator.jar" and "run.bat" from the repository
-* Open "run.bat" in a text editor and change "PATH_TO_JAVAFX_SDK" to the downloaded JavaFX SDK path and save
-* Launch "run.bat"
+* Create executable .jar from source files
+* Open terminal where .jar was created and enter "java --module-path "PATH_TO_JAVAFX_LIB" --add-modules javafx.controls,javafx.fxml -jar mortgage_calculator.jar", where "PATH_TO_JAVAFX_LIB" is path to downloaded JavaFX SDK lib folder.
 
 # Images
 ![Home](https://i.imgur.com/23aFGKb.png)
